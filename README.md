@@ -92,7 +92,7 @@ The semantic network analysis reveals three distinct "Cognitive Maps" of AI gove
 * The US regulates the "Deployment" (impact on Civil Rights in specific sectors).
 * China regulates the "Service" (the provider's responsibility for content).
 
-Global harmonization is struggling not merely due to political will, but because the "Cognitive Maps" are misaligned. A "Safety Treaty" signed by all three would fail in practice because the underlying network structures—the way these concepts are operationally implemented—do not map onto each other. Effective coordination requires moving beyond shared vocabulary to structural interoperability, acknowledging that "Safety" in Brussels implies a checklist, while in Beijing it implies a content filter.
+Global harmonization is struggling not merely due to political will, but because the "Cognitive Maps" are misaligned. A "Safety Treaty" signed by all three would fail in practice because the underlying network structures, the way these concepts are operationally implementedo, not map onto each other. Effective coordination requires moving beyond shared vocabulary to structural interoperability, acknowledging that "Safety" in Brussels implies a checklist, while in Beijing it implies a content filter.
 
 
 ## 🚀 Contributions
