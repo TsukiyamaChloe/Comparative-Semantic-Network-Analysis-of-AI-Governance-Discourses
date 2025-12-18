@@ -28,7 +28,7 @@ The analysis is based on the most recent authoritative documents and frameworks 
 * **Tokenization & Lemmatization:**
     1. English texts processed via `NLTK` with WordNet lemmatization.
     2. Chinese texts segmented via `Jieba` with a custom dictionary for domain-specific policy terms.
-* **Conceptual Consolidation (Phrase Mapping):** To ensure semantic validity, fragmented tokens were merged into coherent concepts (e.g., merging `conformity` + `_assessmen` + `making` $\rightarrow$ `conformity_assessmemt`).
+* **Conceptual Consolidation (Phrase Mapping):** To ensure semantic validity, fragmented tokens were merged into coherent concepts (e.g., merging `conformity` + `assessmen` $\rightarrow$ `conformity_assessmemt`).
 * **Aggressive Noise Reduction:** A bespoke stop-word list was developed to filter out generic administrative and technical noise (e.g., *input*, *output*, *measure*), ensuring the network represents **substantive policy objects**.
 
 ### 3. Network Construction & Metrics
