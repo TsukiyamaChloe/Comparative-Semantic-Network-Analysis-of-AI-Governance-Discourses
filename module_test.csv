@@ -1,0 +1,17 @@
+[CN] Detected Communities (Governance Modules):
+  Module 1: ['治理', '发展', '服务', '措施', '智能', '机制', '信息', '安全', '技术', '影响', '创新', '管理', '社会', '应对', '场景', '防范']
+  Module 2: ['研发', '建设', '模型', '输出', '算法', '训练', '开源', '系统']
+  Module 3: ['人工智能', '数据', '内容', '标识', '生成', '合成']
+
+
+[EU] Detected Communities (Governance Modules):
+  Module 1: ['purpose', 'data', 'person', 'service', 'access', 'natural', 'right', 'decision']
+  Module 2: ['general-purpose', 'model', 'documentation', 'information', 'compliance', 'development', 'systemic_risk']
+  Module 3: ['notified', 'human', 'assessment', 'body', 'trustworthy', 'system']
+  Module 4: ['condition', 'high-risk', 'technical', 'market_surveillance', 'testing']
+  Module 5: ['safety', 'fundamental_rights', 'risk', 'protection']
+
+[US] Detected Communities (Governance Modules):
+  Module 1: ['domain', 'expectation', 'design', 'protection', 'data', 'technology', 'information', 'sensitive', 'development', 'people', 'decision']
+  Module 2: ['potential', 'explanation', 'risk', 'discrimination', 'privacy', 'system', 'community', 'individual', 'harm', 'assessment']
+  Module 3: ['automated', 'automated_systems', 'human', 'principle', 'opportunity', 'impact', 'practice', 'access', 'right']
