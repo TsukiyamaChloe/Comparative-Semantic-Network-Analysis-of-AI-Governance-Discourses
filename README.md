@@ -1,5 +1,4 @@
-# 🌐 Mapping the "Cognitive Infrastructure" of Global AI Governance
-### A Comparative Semantic Network Analysis of US, EU, and CN Policy Discourses
+# A Comparative Semantic Network Analysis of US, EU, and CN Policy Discourses
 
  
 ## 📖 Introduction & Research Background
