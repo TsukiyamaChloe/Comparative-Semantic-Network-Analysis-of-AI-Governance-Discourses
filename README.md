@@ -110,19 +110,17 @@ In Conclusion, global harmonization is struggling not merely due to political wi
 Follow these steps to replicate the data processing and visualization pipeline.
 
 #### 1. Prerequisites
-Ensure you have **Python 3.9+** installed. Install the required dependencies in the requirement.txt
+Ensure you have **Python 3.9+** installed. Install the required dependencies in the requirement.txt.
 
 #### 2. Execution Pipeline
 Run the scripts in the following order to reproduce the results:
-**Step 1**: Corpus Extraction Extracts text from PDFs, cleans artifacts, and merges them into region-specific datasets. You can replace the pdfs in raw_pdfs with other regulations documents to compare different laws.
-            Output: Cleaned .txt files in processed_txt/
-**Step 2**: Metrics Calculation Performs tokenization, calculates degree centrality, and generates co-occurrence matrices.
-            Output: _metrics.csv files in quantitative_data/.
-**Step 3**: Network Visualization Generates the semantic network graphs. This script automatically handles font detection for Chinese characters (SimHei/Arial Unicode) and applies community detection algorithms.
-            Output: .jpg network graphs in figures/.
-**Step 4**: Summary Generation Produces the comparative data table used in the final report.
-            Output: Table.csv containing the comparative rankings of top policy terms.
+* **Step 1**: Corpus Extraction Extracts text from PDFs, cleans artifacts, and merges them into region-specific datasets. You can replace the pdfs in raw_pdfs with other regulations documents to compare different laws. (Output: Cleaned .txt files in processed_txt/)
+  
+* **Step 2**: Metrics Calculation Performs tokenization, calculates degree centrality, and generates co-occurrence matrices. (Output: _metrics.csv files in quantitative_data/.)
 
+* **Step 3**: Network Visualization Generates the semantic network graphs. This script automatically handles font detection for Chinese characters (SimHei/Arial Unicode) and applies community detection algorithms. (output:.jpg network graphs in figures/.)
+            
+* **Step 4**: Summary Generation Produces the comparative data table used in the final report. (output: Table.csv containing the comparative rankings of top policy terms.)
 
           
 ## 🐈‍⬛ Thanks for reading ;))
