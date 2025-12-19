@@ -105,7 +105,7 @@ The semantic network analysis reveals three distinct "Cognitive Maps" of AI gove
 In Conclusion, global harmonization is struggling not merely due to political will, but because the "Cognitive Maps" are misaligned. A "Safety Treaty" signed by all three would fail in practice because the underlying network structures, the way these concepts are operationally implementedo, not map onto each other. Effective coordination requires moving beyond shared vocabulary to structural interoperability, acknowledging that "Safety" in Brussels implies a checklist, while in Beijing it implies a content filter.
 
 
-###  Reproducibility
+### ▪️ Reproducibility
 
 Follow these steps to replicate the data processing and visualization pipeline.
 
