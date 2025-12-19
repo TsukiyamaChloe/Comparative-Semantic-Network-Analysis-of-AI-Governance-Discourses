@@ -1,7 +1,7 @@
 # A Comparative Semantic Network Analysis of US, EU, and CN Policy Discourses
 
  
-## 📖 Introduction & Research Background
+## Introduction & Research Background
 
 As Artificial Intelligence systems scale, the global regulatory landscape is fracturing into distinct geopolitical regimes. While qualitative studies often categorize these regimes broadly: the EU's "Rights-Based" approach, the US's "Market-Driven" approach, and China's "State-Centric" approach. Yet, there still is a lack of quantitative evidence revealing how these ideologies are **structurally embedded** within policy texts.
 
@@ -9,7 +9,7 @@ This project employs **Computational Social Science** methods, specifically **Se
 
 The core research question driving this project is: **How does the semantic structure of AI policy discourse differ across the US, EU, and China, and what do these topological differences reveal about their underlying governance logics?**
 
-## 🔸 Methodology
+## Methodology
 
 In this project, I developed a custom **Computational Social Science** pipeline to transform unstructured policy documents into structured semantic networks. The analytical framework proceeds through three distinct phases: ETL (Extract, Transform, Load), Network Topology Modeling, and Visualization.
 
@@ -18,9 +18,9 @@ I processed the raw textual data using a custom ETL script (`corpus_builder.py`)
 
 * **Data Corpus Construction**
 The analysis is based on the most recent authoritative documents and frameworks (2024-2025):
-  * **🇪🇺 European Union:** *The EU AI Act* (Final Compromise Text).
-  * **🇺🇸 United States:** *Blueprint for an AI Bill of Rights*, *NIST AI Risk Management Framework (RMF)*, *Executive Order 14110*.
-  * **🇨🇳 China:**
+  * ** European Union:** *The EU AI Act* (Final Compromise Text).
+  * ** United States:** *Blueprint for an AI Bill of Rights*, *NIST AI Risk Management Framework (RMF)*, *Executive Order 14110*.
+  * ** China:**
       **State Council Opinion on Deepening the "AI+" Action**  — Strategic integration.
       **Measures for the Labeling of AI-Generated Content** (*人工智能生成合成内容标识办法*) — Operational compliance.
       **AI Safety Governance Framework 2.0** (*人工智能安全治理框架 2.0*) — Full-lifecycle safety guidelines.
@@ -50,7 +50,7 @@ The final visualization (`figures_pipeline.py`) utilizes Graph Theory algorithms
   
 * **Force-Directed Layout:** I rendered the networks using the **Fruchterman-Reingold (Spring)** layout. Crucially, I applied **unweighted repulsion** with a high spacing factor ($k$) to push unconnected nodes apart while keeping semantic neighbors close. This effectively "explodes" dense cores to reveal their internal topology without visual overlapping.
 
-## 🔹 Key Findings: Divergent Governance Logics
+## Key Findings: Divergent Governance Logics
 
 The semantic network analysis reveals three distinct "Cognitive Maps" of AI governance, differing fundamentally in their **objects of regulation** and **spheres of concern**.
 
@@ -90,7 +90,7 @@ The semantic network analysis reveals three distinct "Cognitive Maps" of AI gove
     width="800"   >
     </div>
 
- ### 🔺 Conclusion:
+ ### Conclusion:
  **The "Safety" Divergence:**
 * In the EU: Safety = Product Conformity (Is the technical documentation correct? Is it CE marked?)
 * In China: Safety = Ideological/Content Stability (Is the generated content true and socially positive? Does it carry the correct watermarking/labeling?)
@@ -104,7 +104,7 @@ The semantic network analysis reveals three distinct "Cognitive Maps" of AI gove
 In Conclusion, global harmonization is struggling not merely due to political will, but because the "Cognitive Maps" are misaligned. A "Safety Treaty" signed by all three would fail in practice because the underlying network structures, the way these concepts are operationally implementedo, not map onto each other. Effective coordination requires moving beyond shared vocabulary to structural interoperability, acknowledging that "Safety" in Brussels implies a checklist, while in Beijing it implies a content filter.
 
 
-### ▪️ Reproducibility
+### Reproducibility
 
 Follow these steps to replicate the data processing and visualization pipeline.
 
