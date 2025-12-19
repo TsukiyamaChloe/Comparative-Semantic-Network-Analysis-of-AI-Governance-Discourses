@@ -57,7 +57,7 @@ The semantic network analysis reveals three distinct "Cognitive Maps" of AI gove
 ### 🇪🇺 European Union: Centralized Market Gatekeeping
 * **Hub-and-Spoke Topology:** The EU network shows a highly centralized structure anchored by three key nodes: **`High-Risk`**, **`AI System`**, and **`Product`**.
 * **Bureaucratic Density:** There is a high co-occurrence of compliance-related terminology, including **`Conformity Assessment`**, **`Standard`**, **`Notified Body`**, and **`Technical Documentation`**.
-* **Observation:** The structure mirrors industrial safety regulations, where "Fundamental Rights" are structurally linked to "Conformity," implying rights are protected through product standardization. The governance logic is Product Safety Regulation. An AI system is treated like a car or a toy; safety is achieved through rigorous documentation and pre-market certification (Notified Body, Technical Documentation).
+* **Observation:** The structure mirrors industrial safety regulations, where "Fundamental Rights" are structurally linked to "Conformity," implying rights are protected through product standardization. The governance logic is Product Safety Regulation. Safety is achieved through rigorous documentation and pre-market certification (Notified Body, Technical Documentation).
 
 <div align="center">
   <img 
@@ -68,7 +68,7 @@ The semantic network analysis reveals three distinct "Cognitive Maps" of AI gove
 
 ### 🇺🇸 United States: Sectoral Granularity and Rights
 * **Context-Dependent Terminology:** The network is not centered on abstract "AI" but on **`Automated Systems`** and **`Decision Making`**.
-* **Sectoral Clustering:** We observe distinct semantic clusters linking governance terms to specific life sectors, specifically **`Housing`**, **`Employment`**, **`Health`**, and **`Finance`**.
+* **Sectoral Clustering:** We observe distinct semantic clusters linking governance terms to specific life sectors, specifically **`Education`**, **`Employment`**, **`Health`**, and **`Finance`**.
 * **Normative Focus:** Terms such as **`Bias`**, **`Discrimination`**, and **`Civil Rights`** appear as primary connectors within these sectoral clusters, indicating that governance is triggered by specific downstream harms rather than general technical risks. The governance logic is Contextual Risk Management. There is no single "AI Law"; instead, governance is distributed across sectors, relying on "soft law" tools (NIST Frameworks, audits) to manage risks in specific use cases.
   
 <div align="center">
